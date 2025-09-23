@@ -1,2 +1,2 @@
 # PiattoColorado-SITE
-Site of PiattoColorado, a brazillian pasta house.
+Site of Piatto Colorato, a brazillian pasta house.
