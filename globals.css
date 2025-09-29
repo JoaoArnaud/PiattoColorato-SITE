@@ -223,3 +223,10 @@
     max-width: 450px;
     text-align: left;
 }
+
+.about-us {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #850400;
+    color: white;
+}
