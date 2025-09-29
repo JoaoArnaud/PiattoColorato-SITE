@@ -109,7 +109,13 @@
     }
 
     .feature-dish {
-        margin-right: 0;
+        padding-right: 0;
+        padding-bottom: clamp(20px, 8vw, 50px);
+    }
+
+    .feature-dish-decoration {
+        width: clamp(220px, 70vw, 560px);
+        top: 52%;
     }
 }
 
@@ -143,11 +149,14 @@
     background-color: #457d5a;
     display: flex;
     justify-content: space-evenly;
+    overflow: hidden;
 }
 
 .rightHome {
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .leftHome {
@@ -169,6 +178,21 @@
     height: auto;
     padding-right: clamp(20px, 5vw, 10px);
     padding-bottom: clamp(20px, 5vw, 50px);
+    position: relative;
+    z-index: 2;
+}
+
+.feature-dish-decoration {
+    position: absolute;
+    inset: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1412px;
+    max-width: 200%;
+    height: auto;
+    z-index: 1;
+    pointer-events: none;
 }
 
 .hero-image {
